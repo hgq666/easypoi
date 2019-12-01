@@ -66,6 +66,7 @@ public class EasypoiApplicationTests {
         List<Teacher> list = ExcelImportUtil.importExcel(new FileInputStream(new File("D:/easypoi.xls")), Teacher.class, params);
         for (Teacher teacher : list) {
             System.out.println(teacher);
+            System.out.println("@@@@@@@@@@@@@@");
 
         }
     }
